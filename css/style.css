@@ -155,7 +155,14 @@ hr {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .section-title.center {
 	padding: 10px 0 40px 0;
 }
